@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Suma de matrices</title>
+    <script src="suma_matrices.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="centrado">
+    <h1>Suma de matrices</h1>
+    <p>Ingrese los valores de las dos matrices 3x3:</p>
+    <table>
+      <tr>
+        <td><input type="number" id="A11" /></td>
+        <td><input type="number" id="A12" /></td>
+        <td><input type="number" id="A13" /></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="A21" /></td>
+        <td><input type="number" id="A22" /></td>
+        <td><input type="number" id="A23" /></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="A31" /></td>
+        <td><input type="number" id="A32" /></td>
+        <td><input type="number" id="A33" /></td>
+      </tr>
+    </table>
+    <p>+</p>
+    <table>
+      <tr>
+        <td><input type="number" id="B11" /></td>
+        <td><input type="number" id="B12" /></td>
+        <td><input type="number" id="B13" /></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="B21" /></td>
+        <td><input type="number" id="B22" /></td>
+        <td><input type="number" id="B23" /></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="B31" /></td>
+        <td><input type="number" id="B32" /></td>
+        <td><input type="number" id="B33" /></td>
+      </tr>
+    </table>
+    <br>
+    <button onclick="sumar_matrices()">Sumar</button>
+    <br>
+    <p>La suma de las dos matrices es:</p>
+    <table id="resultado">
+      <tr>
+        <td><input type="number" id="C11" disabled></input></td>
+        <td><input type="number" id="C12" disabled></input></td>
+        <td><input type="number" id="C13" disabled></input></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="C21" disabled></input></td>
+        <td><input type="number" id="C22" disabled></input></td>
+        <td><input type="number" id="C23" disabled></input></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="C31" disabled></input></td>
+        <td><input type="number" id="C32" disabled></input></td>
+        <td><input type="number" id="C33" disabled></input></td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </body>
+</html>
